@@ -1,0 +1,116 @@
+body{margin: 0;padding: 0;}
+/*Disabled arka plan*/
+.black-opacity{
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	/*	opacity: 0.8; */
+	position: absolute;
+}
+/*Kapat tuşu*/
+#btn-close{
+	border:none;
+	float: right;
+	color: white;
+	background-color: transparent;
+}
+/*Resmin görüntüleneceği div */
+.photo-container-detail{
+	width: 1020px;
+	height: 495px;
+	margin: 50px auto;
+	position: relative;
+	box-shadow: 1px 1px 5px;
+	background-color: white;
+}
+.photo-container-detail img{
+	width: 660px;
+	height: 495px;
+	margin-right:3px; 
+	float: left;
+}
+.user-info{
+	width: 357px;
+	height: 100px;
+	float: left;
+	background-color: white;
+
+}
+#profil-photo{
+	width: 45px;
+	height: 48px;
+	margin:10px 0 0 10px;
+	float: left;
+}
+#profil-photo img{
+	width: 45px;
+	height: 48px;
+}
+#username{
+	width: 197px;
+	height: 48px;
+	margin:10px 0 0 5px;
+	float: left;
+}
+#username p{
+	line-height: 3px;
+	font-family: tahoma,verdana,arial;
+	font-size: 13px;
+	color: gray;
+}
+#photo-state{
+	width: 357px;
+	height: 100px;
+	float: left;
+	font-family: tahoma;
+	background-color: white;
+}
+#photo-like{
+	width: 357px;
+	height: 20px;
+	float: left;
+	background-color: white;
+}
+/*Beğeni sayısı*/
+#photo-like b{
+	font-family: tahoma,verdana,arial;
+	font-size: 12px;
+	padding-left:10px;
+	color:#039BE5; 
+}
+/*Resim açıklaması container*/
+#photo-comment{
+	width: 357px;
+	height: 275px;/*Auto olacak*/
+	background-color: #EEEEEE;
+	float: left;
+}
+/*Resim açıklaması*/
+#photo-comment h4{
+	font-family: tahoma,verdana,arial;
+	padding-left:10px; 
+}
+/*Yorum container*/
+.comment-made{
+	width: 357px;
+	padding-top: 3px;
+	float: left;
+}
+/*Yorum*/
+#comment-text{
+	width: 245px;
+	height: 30px;
+	margin:10px 0 0 15px;
+}
+/*Gönder tuşu*/
+#comment-send{
+	width: 60px;
+	height: 35px;
+}
+hr{width: 320px;margin: 0 auto;}
+
+/**********************İMZA**********************
+Ender İMEN
+22 Mart, 2017
+chrome
+************************************************/

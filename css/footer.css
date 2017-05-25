@@ -1,0 +1,47 @@
+/*********Footer Kısmı***********/
+#footer {
+    margin: 0 auto;
+    height: 50px;
+    width:100%;
+    margin: 30px 0 0 0;
+    clear: both;
+}
+
+#footer-group {
+    height: 40px;
+    width: 1100px;
+    margin: 0 auto;
+}
+
+#footer_nav {
+    height: 30px;
+    width: 80px;
+    float: left;
+    margin: 0 0 0 2px;
+    font-size: 11px;
+    text-align: center;
+    color: gray;
+}
+
+#footer_nav:hover {
+    color: black;
+    cursor: pointer;
+    /*box-shadow: 10px 10px 5px #888888;*/
+}
+/*********\Footer Kısmı***********/
+
+#footer_copyright {
+    height: 40px;
+    width: 100px;
+    float: right;
+    margin-right: 5px;
+    font-family: Tahoma;
+    font-size: 10px;
+    color: darkgray;
+}
+
+/**********************İMZA**********************
+Ender İMEN
+22 Mart, 2017
+chrome
+************************************************/

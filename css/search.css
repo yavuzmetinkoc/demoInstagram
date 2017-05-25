@@ -1,0 +1,35 @@
+.aranan{
+	width: 565px;
+	height: 60px;
+	margin:20px auto;
+	border-radius: 30px 8px  8px 30px;
+	box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/*Kullanıcının profil resmi*/
+.profil_photo{
+    height: 60px;
+    width: 60px;
+    float: left;
+    background-color: yellow;
+    border-radius: 40px;
+}
+.profil_photo img{
+	width:60px;height:60px;
+	border-radius:100px;
+}
+/*Kullanıc bilgileri*/
+.info{
+	height: 50px;
+    width: 250px;
+    float: left;
+    padding:10px 0 0 5px;	
+	font-family: Helvetica;
+	font-weight:bold;
+}
+
+/**********************İMZA**********************
+Ender İMEN
+22 Mart, 2017
+chrome
+************************************************/

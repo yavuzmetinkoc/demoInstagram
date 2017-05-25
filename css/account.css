@@ -1,0 +1,58 @@
+body{
+	background-color:#FFF8FF;
+}
+/*******Kullanıcı Kayıt Css leri********/
+#content{
+	height:750px;
+	width:731px;
+	background-color:#FFF8FF;
+	margin:0 auto;
+	margin-top:40px;
+}
+#left-content{
+	height:554px;
+	width:340px;
+	margin:65px 0 0 5px;
+	float:left;
+}
+#right-content{
+	height:515px;
+	width:325px;
+	background-color:white;
+	margin:40px 0 0 40px;
+	float:left;
+	box-shadow: 1px 1px 1px #888888;
+}
+/*******\Kullanıcı Kayıt Css leri********/
+
+/*******Kullanıcı Login 'e  Yönlendirme********/
+#right-content-login{
+	height:66px;
+	width:325px;
+	margin:20px 20px 20px 0;
+	float:right;
+	box-shadow: 1px 1px 1px #888888;
+	background-color:white;
+}
+#table_design td{
+	height:50px;
+}
+/*******\Kullanıcı Login 'e Yönlendirme********/
+
+/**********************İMZA**********************
+Ender İMEN
+22 Mart, 2017
+chrome
+************************************************/
+
+
+
+
+
+
+
+
+
+
+
+

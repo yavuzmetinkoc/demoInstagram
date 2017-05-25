@@ -1,0 +1,72 @@
+a{
+    text-decoration:none;
+    color:black;
+}
+#content-profil-info{
+    margin: 30px auto;
+    width: 1000px;
+    float: center;
+}
+#profil-photo-container{
+    margin-top:10px;
+    margin-left:10px;
+    width: 300px;
+    height: 200px;
+    float: left;
+}
+#profil-photo{
+    width: 150px;
+    height: 150px;
+    margin-top:10px;
+    margin-left:30px;
+    border-radius:80px;
+}
+#profil-photo:hover{
+    cursor: pointer;
+    border-radius: 80px;
+    background-image: url(..\img\upload.png);
+}
+
+#user-info{
+    margin-top:10px;
+    margin-left:20px;
+    width: 450px;
+    height: 320px;
+    float: left;
+}
+#shared-photo-container{
+    margin:0 auto;
+    width: 850px;
+    float: center;
+}
+.shared-photo{
+    margin:10px;
+    width: 250px;
+    height: 250px;
+    float: left;
+    opacity: 1.0;
+}
+.shared-photo:hover{
+    cursor: pointer;
+    opacity: 0.9;
+}
+.button-effect{
+    width: 100px;
+    height: 40px;
+    border: none;
+    color: black;
+    text-align: left;
+    background-color: #E0E0E0;
+    font-size:12px;
+}
+.void{  
+    width: 780px;
+    height: 150px;
+    margin: 0 auto;
+    float: left;
+}
+/**********************İMZA**********************
+Ender İMEN
+22 Mart, 2017
+chrome
+************************************************/

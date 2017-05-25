@@ -1,0 +1,111 @@
+body {
+    margin: 0px;
+    /*background-color: #FFF9F2;*/
+}
+.photo-container{
+    margin: 55px auto;
+    width: 602px;
+    background-color:white;
+}
+/*******Paylaşılan Resmin Gösterileceği Alan********/
+
+#photo-share-top-bar {/*****<<<<burada sıkıntı var>>>>*****/
+    margin: 55px auto;
+    /*height: 64px;*/
+    width: 602px;
+    background-color:white;
+    float: none;
+}
+/*Açıklama:Üst kısımdaki kod bloğunda resim paylaşımınmdaki kullanıcı adı,konum ve saati içerir.*/
+#content-photo-share {
+    margin: 0px auto;
+    width: 602px;
+    height: 602px;
+    float: center;
+    background-color: white;
+}
+/*Resmin görüneceği alan*/
+#photo-share li {
+    padding: 7px 0 0 0;
+    list-style-type: none;
+}
+
+#photo-share a {
+    text-decoration: none;
+    font-family: Arial,"proxima-nova", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, sans-serif;
+    font-size: 15px;
+}
+/*Kullanıcı profil resmi*/
+#photo-share-small-img {
+    margin-top: 16px;
+    margin-left: 10px;
+    height: 32px;
+    width: 32px;
+    float: left;
+    border-radius: 40px;
+}
+/*Resim beğeni alanı*/
+#photo-comment-like {
+    margin: 0px auto;
+    height: auto;
+    width: 602px;
+    float: center;
+    background-color: white;
+}
+.btn-like:hover{
+    cursor: pointer;
+    background-image: url(../img/heart-red.png);
+}
+.photo-comment-show{
+    clear: both;
+    width: 400px;
+    height: auto;
+}
+#like-person {
+    height: 64px;
+    width: 602px;
+    background-color: white;
+	box-shadow:1px 1px 1px white;
+}
+/*Resim e yapılacak yorum kısmı*/
+#comment{
+    width: 602px;
+    background-color:white;
+	box-shadow:1px 1px 1px white;
+}
+.yoruma_yorum_icerik{
+    width: 602px;
+    height: 20px;
+    background-color:black;
+}
+
+/*******\Paylaşılan Resimin Gösterileceği Alan********/
+
+#add_profil_photo {
+    width: 80px;
+    height: 80px;
+    margin: 0px auto;
+    float: center;
+    position: relative;
+}
+/*Yeni kayit olmuş kullanıcıya gösterilecek resim*/
+#content-welcome {
+    margin: 20px auto;
+    height: 236px;
+    width: 602px;
+    float: center;
+}
+/*Yukarı çık tuşunun Css leri*/
+.up{
+    width: 40px;
+    height: 40px;
+    position:fixed; 
+    right: 40px;
+    bottom: 30px;
+    display: none;
+}
+/**********************İMZA**********************
+Ender İMEN
+22 Mart, 2017
+chrome
+************************************************/

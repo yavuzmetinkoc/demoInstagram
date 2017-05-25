@@ -1,0 +1,51 @@
+.discover-title-bar{
+	width: 600px;
+	height: 27px;
+	margin: 0 auto;
+	margin-top: 50px; 
+	padding-top: 13px;
+	box-shadow: 1px 1px 5px gray;
+	border-radius: 5px;
+	font-family: Helvetica;	
+}
+.discover-title-bar:hover{color:blue;transition: 1s;text-shadow: 5px}
+.discover-container{
+	width: 565px;
+	height: 250px;
+	margin:20px auto;
+	box-shadow: 1px 1px 1px gray;
+	border-radius: 5px;
+}
+.discover-tab-bar{
+	width: auto;
+	height: 50px;
+	margin: 0 auto;		
+}
+.discover-picture{
+	width: 183px;
+	height: 190px;
+	margin:5px 0 0 4px;
+	background-color: black;
+	float: left;
+}
+.discover-profil-photo{
+	width: 44px;
+	height:44px;
+	margin:3px 0 0 10px;
+	border-radius: 100px;
+	float: left;
+}
+.discover-username{
+	width: auto;
+	margin:5px 0 0 5px;
+	float: left;	
+	font-family: Helvetica,tahoma;
+}
+.btn-follow-div{
+	width: auto;
+	margin:15px 5px 0 5px;
+	float: right;	
+}
+.color{background-color: blue;}
+.btn{border:none;width: 100px;height: 25px;color: white;background-color:#3498db;font-size: 15px;padding-bottom:5px;border-radius: 5px; }
+.btn:hover{cursor: pointer;transition:0.5s;}

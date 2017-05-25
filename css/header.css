@@ -1,0 +1,85 @@
+/*********Ana Çerçeve***********/
+#header {
+    height: 80px;
+    width: 1349px;
+    background-color:white;
+    position: relative;
+}
+/*********\Ana Çerçeve***********/
+
+/*********LOGO***********/
+#logo{
+    height:55px;
+    width: 200px;
+    margin-left: 15%;
+    padding-top: 10px;
+    margin-top: 5px;
+    position: absolute;
+    cursor: pointer;
+}
+/*********\LOGO***********/
+
+/*********NAV Araçları***********/
+#nav {
+    height: 5px;
+    margin: 0 20px 0 1010px;
+    padding-top: 2px;
+    float: left;
+}
+.nav_img {
+    height: 24px;
+    width: 24px;
+    float: left;
+    margin: 5px 30px 0 0;
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+}
+/*Badge*/
+.bdg{
+    position: relative;
+}
+/*Beğeni bildirim*/
+.bdg[nbr]:after{
+    width: 18px;
+    height: 15px;
+    top: -7px;
+    right:-7px;
+    content: attr(nbr);
+    position: absolute;
+    background-color: red;
+    color: white;
+    opacity: 0.9;
+    font-size:12px;
+    border-radius: 25%;
+    text-align: center;
+    padding-top:2px;  
+    /*display: none; Eğer beğeni varsa gösterilecek*/
+}
+/*Badge-Son-*/
+
+#nav_img:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+    cursor: pointer;
+}
+/*********\NAV Araçları***********/
+#ara{
+    width: 35px;
+    height: 34px;
+    border:none;
+    border-radius: 30px 0 0 30px;
+    position: absolute;
+    background-image: url("../img/search.jpg");
+    background-repeat: no-repeat;
+    background-color: Transparent;
+    background-position: center;
+    background-size: 30px;
+    left: 55.35%;
+    top: 20px;
+
+}
+/**********************İMZA**********************
+Ender İMEN
+22 Mart, 2017
+chrome
+************************************************/
