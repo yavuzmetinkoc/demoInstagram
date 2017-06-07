@@ -19,27 +19,34 @@ if(isset($_POST['gonder'])){//Form gönderildi mi?
             
             if (move_uploaded_file($_FILES["resim"]["tmp_name"],$yeni_ad)){
 
-                echo 'Dosya başarıyla güncellendi.';
-
                 //Bilgiler veri tabanına kaydedilsin.
 
                 $add=mysqli_query($connection,"UPDATE kullanicilar SET Presim='".$yeni_ad."' WHERE id='".$_SESSION['id']."'");
 
                 if (mysqli_affected_rows($connection)){
-                    echo 'Profil Resmi kaydedildi.';header("refresh:1;url=profil.php"."?id=".$_SESSION['id']);
+                    echo '<script language="javascript">
+                            alert("Profil Resmi kaydedildi.");
+                         </script>';    
+                    header("refresh:1;url=profil.php"."?id=".$_SESSION['id']);
                 }                                                         
                 else{
                     header("refresh:1;url=profil.php"."?id=".$_SESSION['id']);
                 }
             }else{
-                echo 'Dosya Yüklenemedi!';
+                echo '<script language="javascript">
+                            alert("Dosya Yüklenemedi!");
+                         </script>'; 
+
                 header("refresh:1;url=profil.php"."?id=".$_SESSION['id']);
             }
         }else{
             header("refresh:1;url=profil.php"."?id=".$_SESSION['id']); 
         }
     }else{
-        echo 'Dosya boyutu 2 Mb ı geçemez!';header("refresh:1;url=profil.php"."?id=".$_SESSION['id']);
+         echo '<script language="javascript">
+                            alert("Dosya boyutu 2 Mb ı geçemez!");
+                         </script>'; 
+        header("refresh:1;url=profil.php"."?id=".$_SESSION['id']);
     }
 }
 /******Resim paylaşma kodları******/
@@ -58,8 +65,7 @@ if(isset($_POST['share-submit']))
             //$kullanici_adi=$_session['username']; session start olan kişinin ismine göre profil resmi değiştirilecek.
 
             if (move_uploaded_file($_FILES["share"]["tmp_name"],$yeni_ad)){
-                echo 'Dosya Başarıyla Kaydedildi.';
-
+                
                 //Bilgiler veri tabanına kaydedilsin.
                 //Paylaşılan resimlerin bilgileri farklı bir ekrandan alınacak
               
@@ -70,19 +76,28 @@ if(isset($_POST['share-submit']))
                 $add=mysqli_query($connection,"INSERT INTO paylasimlar(kullaniciID,sTarih,sKonum,sYol,aciklama)VALUES('".$_SESSION['id']."','$tarih','$konum','".$yeni_ad."','$aciklama')");
 
                 if ($add){
-                    echo 'Paylaşım Veritabanına kaydedildi.';header("refresh:1;url=index.php");
+                    echo '<script language="javascript">
+                            alert("Paylaşım yapıldı.");
+                         </script>'; 
+                    header("refresh:1;url=index.php");
                 }
                 else{
                     header("refresh:1;url=profil.php"."?id=".$_SESSION['id']);
                 }
             }else{
-                echo 'Dosya Yüklenemedi!';header("refresh:1;url=profil.php");
+                echo '<script language="javascript">
+                            alert("Dosya Yüklenemedi!");
+                         </script>'; 
+                header("refresh:1;url=profil.php");
             }
         }else{
             header("refresh:1;url=profil.php"."?id=".$_SESSION['id']);
         }
     }else{
-        echo 'Dosya boyutu 2 Mb ı geçemez!';header("refresh:1;url=profil.php"."?id=".$_SESSION['id']);
+         echo '<script language="javascript">
+                            alert("Dosya boyutu 2 Mb ı geçemez!");
+                         </script>'; 
+        header("refresh:1;url=profil.php"."?id=".$_SESSION['id']);
     }
 }
 ?>
